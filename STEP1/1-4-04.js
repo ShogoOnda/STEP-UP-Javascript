@@ -1,7 +1,7 @@
-function addMessage(message){
+function addMessage(message) {
   var messageElm = document.createElement('div');
   messageElm.innerText = message;
-  logElm.appendChild('messageElm');
+  logElm.appendChild(messageElm);
 }
 
 var displayElm = document.getElementsByClassName('display')[0];
